@@ -1,0 +1,16 @@
+.kanga {
+    background: #D90DCB;
+    background: linear-gradient(to right, #E0C3EB 0%, #D90DCB 10%, #E0C3EB 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: spotlight 10s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes spotlight {
+  0%, 100% { background-position: 0 0; }
+  20% { background-position: -100% 0; }
+  40% { background-position: 50% 0; }
+  60% { background-position: 0 0; }
+  80% { background-position: 100% 0; }
+}
